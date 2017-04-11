@@ -1,0 +1,344 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  -webkit-font-smoothing: antialised;
+  color: black; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:active {
+    text-decoration: none; }
+  a:visited {
+    text-decoration: none; }
+  a:focus {
+    text-decoration: none; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+i.fa-twitter {
+  color: #fff; }
+  i.fa-twitter:hover {
+    color: #2DAAE1; }
+
+i.fa-facebook {
+  color: #fff; }
+  i.fa-facebook:hover {
+    color: #3A579D; }
+
+i.fa-vk {
+  color: #fff; }
+  i.fa-vk:hover {
+    color: #4D75A3; }
+
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000; }
+  #header .logo {
+    width: 40%; }
+  #header .nav-menu ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 15px; }
+    #header .nav-menu ul li a {
+      text-transform: uppercase;
+      color: #000;
+      font-weight: 300; }
+  #header .mobile-menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    display: none; }
+
+#top {
+  overflow: hidden;
+  background-image: url("../img/mainbg1.png");
+  background-size: cover;
+  background-position: center; }
+  #top h1 {
+    margin-top: 470px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 30px; }
+  #top .btn-links {
+    margin-bottom: 285px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    visibility: hidden; }
+    #top .btn-links a {
+      padding: 9px 40px;
+      background-color: #799628;
+      border-radius: 40px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-left: 50px;
+      font-weight: 300;
+      font-size: 14px; }
+      #top .btn-links a:hover {
+        text-decoration: none; }
+
+#about {
+  overflow: hidden; }
+  #about h2 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 48px;
+    font-size: 22px; }
+  #about p {
+    font-weight: 300;
+    margin-bottom: 120px; }
+
+#solution {
+  overflow: hidden; }
+  #solution h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 115px;
+    font-size: 22px; }
+  #solution h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 28px; }
+  #solution p {
+    font-weight: 300; }
+  #solution img {
+    width: 100%; }
+  #solution .camera h2 {
+    margin-top: 0; }
+  #solution .uav h2 {
+    margin-top: 50px; }
+  #solution .agrochemistry h2 {
+    margin-top: 105px; }
+  #solution .agrochemistry img {
+    margin-top: 80px; }
+  #solution .gis h2 {
+    margin-top: 75px; }
+  #solution .gis img {
+    margin-top: 40px;
+    margin-bottom: 145px; }
+
+#clients {
+  background-image: url("../img/weworkbg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  #clients .workfor {
+    margin-bottom: 100px; }
+  #clients h1 {
+    margin-top: 165px;
+    margin-bottom: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px; }
+  #clients p {
+    font-weight: 300;
+    font-size: 16px; }
+  #clients .work-title img {
+    position: absolute;
+    top: 22px; }
+  #clients .work-title h2 {
+    padding-left: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 40px; }
+  #clients .work-title .goverment {
+    margin-top: 30px;
+    margin-bottom: 50px; }
+
+#team {
+  text-align: center;
+  overflow: hidden; }
+  #team .teamblock {
+    margin-bottom: 175px; }
+  #team h1 {
+    margin-top: 105px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    font-size: 24px; }
+  #team h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px; }
+  #team p {
+    margin-bottom: 65px;
+    font-size: 16px;
+    font-weight: 300; }
+  #team .photo {
+    position: relative; }
+    #team .photo img {
+      display: block;
+      margin: auto; }
+    #team .photo:hover .social {
+      opacity: 1; }
+    #team .photo .social {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+        left-margin-left: auto;
+          left-margin-left-margin-right: auto;
+      width: 134px;
+      height: 134px;
+      border-radius: 50%;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: all 0.5s ease-out;
+      padding-top: 55px; }
+
+#contact {
+  background-color: #262626;
+  font-family: "Montserrat";
+  color: #fff;
+  overflow: hidden; }
+  #contact .nav-footer img {
+    margin-top: 80px;
+    margin-bottom: 18px; }
+  #contact .nav-footer li {
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 10px; }
+  #contact .info-footer {
+    margin-top: 130px;
+    font-weight: 300;
+    font-size: 20px; }
+    #contact .info-footer p {
+      margin-bottom: 5px; }
+  #contact .social-footer {
+    margin-top: 25px; }
+    #contact .social-footer a {
+      font-size: 25px;
+      margin-right: 20px; }
+  #contact h2 {
+    font-size: 24px; }
+  #contact form {
+    margin-top: 82px;
+    color: #000;
+    font-weight: 300; }
+    #contact form h2 {
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center; }
+  #contact input {
+    border-style: none;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 47%; }
+    #contact input:focus {
+      outline: none; }
+  #contact input.name {
+    margin-right: 5%;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 20px;
+    font-weight: 300; }
+  #contact input.email {
+    text-align: left;
+    margin-top: 17px;
+    padding-left: 20px;
+    font-weight: 300; }
+  #contact textarea {
+    margin-top: 15px;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: 300; }
+    #contact textarea:focus {
+      outline: none; }
+  #contact a {
+    color: #fff; }
+    #contact a:hover {
+      text-decoration: none; }
+  #contact input.btn-send {
+    width: auto;
+    float: right;
+    background-color: #7a962f;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 50px;
+    margin-top: 10px;
+    margin-bottom: 5px; }
+
+.rights {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center; }
+  .rights p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px 0; }
+
+.circles {
+  background-image: url("../img/circlebg.png");
+  background-size: cover;
+  background-position: center; }
+
+.content {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto; }
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#stats {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  background: #f8f8f8;
+  border-top: 4px solid #c3c3c3;
+  border-bottom: 4px solid #c3c3c3; }
+
+#stats .row {
+  display: block; }
+
+.circle-container {
+  display: block;
+  float: left;
+  margin-bottom: 135px;
+  margin-top: 140px;
+  width: 100%; }
+
+.circle-container h3 {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 0;
+  font-weight: 300; }
+
+.circlestat {
+  margin: 0 auto; }
+
+.circlestat span {
+  color: #fff;
+  font-size: 20px; }

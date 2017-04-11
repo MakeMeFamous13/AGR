@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+  .nav-menu .header-nav ul {
+    margin-top: 25px;
+    margin-left: 0; } }
+
+@media screen and (min-width: 800px) {
+  .header-nav {
+    display: block !important; } }
+
+@media screen and (max-width: 768px) {
+  #header .logo {
+    width: 75%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  #header .nav-menu {
+    display: none; }
+    #header .nav-menu ul li {
+      display: block !important;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-right: 0; }
+  .mobile-menu {
+    display: block !important;
+    font-size: 25px; }
+  .circle-container {
+    margin-bottom: 60px;
+    margin-top: 60px; }
+  .gis {
+    margin-bottom: 50px; }
+  #solution .camera img {
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  #solution .uav h2 {
+    margin-top: 30px; }
+  #solution .agrochemistry img {
+    margin-top: 30px; }
+  #solution .agrochemistry h2 {
+    margin-top: 50px; }
+  #solution .gis img {
+    margin-top: 30px;
+    margin-bottom: 70px; }
+  #solution .gis h2 {
+    margin-top: 50px; }
+  #team .teamblock {
+    margin-bottom: 50px; }
+  #contact form {
+    margin-top: 30px; }
+    #contact form input {
+      width: 47%; }
+    #contact form input.name {
+      margin-right: 38px; } }
+
+@media screen and (max-width: 480px) {
+  #top h1 {
+    margin-top: 300px; }
+  #top .btn-links {
+    margin-bottom: 200px; }
+  #header .logo {
+    width: 75%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  #header .mobile-menu {
+    display: block;
+    font-size: 20px;
+    top: 10px; }
+  #contact form input {
+    width: 100%; }
+  #contact .social-footer {
+    margin-top: 10px; }
+  #clients h1 {
+    margin-top: 100px;
+    margin-bottom: 50px; }
+  #team h1 {
+    margin-top: 100px;
+    margin-bottom: 50px; } }
+
+@media screen and (max-width: 320px) {
+  #contact form input.name {
+    margin-right: 0; } }
